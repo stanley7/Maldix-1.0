@@ -7,6 +7,8 @@ That means it's a character and it doesn't sound like a normal chatbot.
 Maldix blends sixteen fine-tuned expert language models with a symbolic layer.
 With the help of an abstract language called ABEL, Maldix reason about what people feel and mean.
 
+## System Architecture
+```
 User Input
    │
    ▼
@@ -22,6 +24,7 @@ Router (pattern or ABEL-guided)
 Response
    │
    └─► (Planned) ABEL Extraction → Slot Structure → Emotional State Update
+```
 
 
 ABEL doesn’t replace the neural model, it guides it.
